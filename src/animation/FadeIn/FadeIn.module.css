@@ -1,0 +1,12 @@
+.container {
+  opacity: 0;
+  transition: 0.8s ease;
+  transform: translateX(-200%);
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.containerActive {
+  opacity: 1;
+  transform: translateX(0);
+}
